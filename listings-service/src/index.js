@@ -1,3 +1,3 @@
-import path from 'path';
+require("path");
 
 console.log("working")
