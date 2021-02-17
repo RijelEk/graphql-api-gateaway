@@ -1,3 +1,5 @@
-require("path");
+import "@babel/polyfill";
+import "dotenv/config";
 
-console.log("werking")
+import "#root/db/connection";
+import "#root/server/startServer";
